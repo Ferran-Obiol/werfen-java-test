@@ -13,7 +13,7 @@ public class MexicanWave {
                 result.add(toUppercaseCharAtPosition(str, i));
             }
         }
-        return result.toArray(String[]::new);
+        return result.toArray(new String[]{});
     }
 
     private static String toUppercaseCharAtPosition(String str, int i) {
